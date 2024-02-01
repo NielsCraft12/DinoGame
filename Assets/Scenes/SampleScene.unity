@@ -237,16 +237,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 836043100}
+=======
+  m_GameObject: {fileID: 519420028}
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.5099993, y: 0.07, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &839907894
+=======
+--- !u!1 &1477592919
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,6 +262,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 839907899}
   - component: {fileID: 839907898}
   - component: {fileID: 839907897}
@@ -261,17 +270,31 @@ GameObject:
   - component: {fileID: 839907895}
   m_Layer: 0
   m_Name: Player
+=======
+  - component: {fileID: 1477592924}
+  - component: {fileID: 1477592923}
+  - component: {fileID: 1477592922}
+  - component: {fileID: 1477592921}
+  - component: {fileID: 1477592920}
+  m_Layer: 0
+  m_Name: Quad
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &839907895
+=======
+--- !u!114 &1477592920
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 839907894}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -285,13 +308,29 @@ MonoBehaviour:
     m_Bits: 64
 --- !u!61 &839907896
 BoxCollider2D:
+=======
+  m_GameObject: {fileID: 1477592919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfada0d332694e4cbb9b602d2cec91f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGroundSpeed: 1
+  backgroundRenderer: {fileID: 1477592922}
+--- !u!64 &1477592921
+MeshCollider:
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 839907894}
   m_Enabled: 1
   m_Density: 1
+=======
+  m_GameObject: {fileID: 1477592919}
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -300,6 +339,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+<<<<<<< HEAD
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -365,17 +405,44 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+=======
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 4
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1477592922
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477592919}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+<<<<<<< HEAD
   m_RayTracingMode: 0
+=======
+  m_RayTracingMode: 2
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  - {fileID: 2100000, guid: 6c128360649a23e4aa13ceb273d3b97d, type: 2}
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -388,7 +455,11 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
+<<<<<<< HEAD
   m_SelectedEditorRenderState: 0
+=======
+  m_SelectedEditorRenderState: 3
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -396,6 +467,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: fff1721c8621b2b4e9ce5b59a3800c57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -408,11 +480,24 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &839907899
+=======
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1477592923
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477592919}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1477592924
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 839907894}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -549,6 +634,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.22, y: -6.88, z: 0}
   m_LocalScale: {x: 830.67365, y: 71.6505, z: 1}
+=======
+  m_GameObject: {fileID: 1477592919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6, y: 0, z: 0.5355417}
+  m_LocalScale: {x: 19.45406, y: 10.402518, z: 10.807812}
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -557,6 +649,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
   - {fileID: 836043103}
   - {fileID: 839907899}
   - {fileID: 1493213682}
+=======
+  - {fileID: 519420032}
+  - {fileID: 1477592924}
+>>>>>>> 7ff799c3feec2cc65760cd82dab8ea5fe79e7039
