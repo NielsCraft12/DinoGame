@@ -10,7 +10,7 @@ public class ButtonManager : MonoBehaviour
     public void ClickBackButton()
     {
         //Turn on setting button.
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("DinoScene2");
 /*        CanvasDisplay.SetActive(false);*/
     }
 }
