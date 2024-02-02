@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float horizontal;
-    private float jumpingPower = 100f;
+    
+    public float jumpingPower;
    
     
 
@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
 
-        horizontal = Input.GetAxisRaw("Horizontal");
+       
 
         if(Input.GetButtonDown("Jump")&& IsGrounded())
         {
